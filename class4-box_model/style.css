@@ -1,0 +1,36 @@
+body {
+	padding:0px;
+	margin:0;
+}
+h1 {
+	color:yellow;
+	background:black;
+	text-align:center;
+	padding:30px;
+	margin:30px;
+	font-size:3em;
+	box-shadow:3px 3px 4px 1px grey;
+}
+.para, .para1, .para3 {
+	color:blue;
+	text-align:center;
+	background:yellow;
+	margin:20px;
+	font-size:2.3em;
+	padding:3em;
+	font-weight:600;
+
+	border:12px solid blue;
+	box-shadow:3px 3px 4px 1px grey;
+}
+
+.para {
+	border:12px solid blue;
+}
+
+.para1 {
+	border:12px dotted blue;
+}
+.para3 {
+	border:12px dashed blue;
+}
