@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Positioning</title>
+	<style>
+		body {
+			height:700px;
+		}
+		.container {
+			width:auto;
+			height:400px;
+			transition: all 1px ease-in-out;
+			text-align: center;
+			margin:auto auto 5px auto;
+			border: 3px #15150c solid;
+			
+		}
+		
+		.box{
+			box-shadow: 2px 2px 1px #432d2d;
+			transition: all 1s ease-in-out;
+			width:100px;
+			height:100px;
+			display: block;
+			background:red;
+			margin:10px auto;
+			position: fixed;
+			top:70px;
+			left:60px;
+		}
+		.box-a{
+			box-shadow: 2px 2px 1px #432d2d;
+			transition: all 1s ease-in-out;
+			width:100px;
+			height:100px;
+			display: block;
+			background:red;
+			margin:10px auto;
+			position: absolute;
+			top:70px;
+			right:60px;
+		}
+		
+		.box-b{
+			box-shadow: 2px 2px 1px #432d2d;
+			transition: all 1s ease-in-out;
+			width:100px;
+			height:100px;
+			display: block;
+			background:red;
+			margin:10px auto;
+			position: static;
+		}
+		
+		.box>h2,  .box-a>  h2, .box-b>h2 {
+			color:white;
+			position: relative;
+			top:30%;
+		}
+	
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<h2></h2>
+		<div class="box">
+			<h2>Box 1</h2>
+		</div>
+		<div class="box-a">
+			<h2>Box 2</h2>
+		</div>
+		<div class="box-b">
+			<h2>Box 3</h2>
+		</div>
+	</div>
+	
+</body>
+</html>
